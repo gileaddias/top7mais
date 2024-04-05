@@ -14,7 +14,7 @@
 .header .logo{
     font-size: 3em;
     background-color: #000;
-    color: #fff;
+    color: rgb(255, 239, 8);
     padding: 15px 30px;
     margin-bottom: 1.5em;
 }
@@ -22,7 +22,7 @@
 .header .nav{
     width: 100%;
     display: block;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid rgb(255, 239, 8);
 }
 
 .header .nav .menu{
@@ -42,12 +42,13 @@
     padding: 10px 15px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     font-weight: bold;
     transition: ease .4s;
 }
 
 .header .nav .menu li a:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(255, 239, 8);
+    color: #000;
 }
