@@ -50,10 +50,14 @@
 
 .card.-cats img{
     width: 100%;
-    transition: ease.5s;
+    transition: ease .5s;
 }
 
 .card.-cats:hover img{
+    transform: scale(1.15) rotate(5deg);
+}
+
+.card.-cats:hover figcaption{
     transform: scale(1.15);
 }
 
@@ -82,8 +86,13 @@
 .card.-post .box-img{
     width: 35%;
     border-radius: 4px;
-    transition: ease .5s;
+    overflow: hidden;
+}
 
+.card.-post .box-img img{
+    width: 100%;
+    border-radius: 4px;
+    transition: ease .5s;
 }
 
 .card.-post:hover img{

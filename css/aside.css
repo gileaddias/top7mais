@@ -35,6 +35,10 @@ aside .box.-box-img p {
     margin: 1em 0 0 0;
 }
 
+aside .box.-box-tag .tags li{
+    float: left;
+}
+
 aside .box.-box-tag .tags li a{
     display: block;
     background-color: #000;
